@@ -383,3 +383,18 @@ span.user-title {
     color: $primary;
   }
 }
+
+
+// OIDC button
+.btn-social.oidc {
+  background-color: $tertiary;
+  border-color: $tertiary;
+  color: #fff;
+  padding: 9px 18px;
+  font-size: 1.1487em;
+  line-height: 1;
+  &:hover {
+    background: darken($tertiary, 10%);
+  }
+}
+
