@@ -337,10 +337,11 @@ span.user-title {
   z-index: 300;
   bottom: 0px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
-  padding: 1rem 0px;
+  padding: 0.25em 0px;
   align-items: center;
+  justify-content: center;
 }
 
 .footer a {
