@@ -9,9 +9,9 @@
     "unikname": {
       "primary": "212121",
       "secondary": "fafafa",
-      "tertiary": "ffa407",
-      "quaternary": "3f51b5",
-      "header_background": "090d82",
+      "tertiary": "FF5733",
+      "quaternary": "313A81",
+      "header_background": "313A81",
       "header_primary": "ffffff",
       "highlight": "ffeb3b",
       "danger": "f44336",
