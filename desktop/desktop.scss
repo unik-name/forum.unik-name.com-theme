@@ -17,10 +17,12 @@ img.avatar {
   font-weight: normal;
 }
 
-.d-header {
-  height: 70px;
+
+
+header.d-header {
   background: rgba($header_background, 0.92);
   box-shadow: 0 3px 3px rgba(100, 100, 100, 0.13);
+  padding: 0;
   .panel {
     padding: 6px 0 0 0;
     flex: 0 0 auto;
