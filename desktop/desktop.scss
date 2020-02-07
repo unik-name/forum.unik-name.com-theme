@@ -1,5 +1,16 @@
 @import "common/foundation/variables";
 
+#main {
+  padding-top: 70px;
+}
+
+#main-outlet {
+  background-color: transparent;
+  padding: 1em;
+  width: 90%;
+  max-width: 1600px;
+}
+
 h3 {
   font-weight: normal;
 }
@@ -64,7 +75,7 @@ header.d-header {
 }
 
 .list-controls {
-  margin-bottom: 2em;
+  margin-bottom: 0;
 }
 
 ol.category-breadcrumb {
