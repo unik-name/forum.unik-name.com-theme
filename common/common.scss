@@ -1,6 +1,7 @@
 // Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
 
 @import "common/foundation/variables";
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
@@ -123,6 +124,16 @@ header.d-header {
   .panel {
     margin-left: auto;
     order: 5;
+  }
+
+  .title:after {
+    content: "FORUM";
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: bold;
+    margin-left: 0.25em;
+    margin-top: 0.2em;
+    font-size: 1.6em;
   }
 }
 
@@ -371,7 +382,7 @@ span.user-title {
 }
 
 .footer > div {
-  margin:  0 1em;
+  margin: 0 1em;
 }
 
 // Babble
@@ -390,7 +401,6 @@ span.user-title {
   }
 }
 
-
 // OIDC button
 .btn-social.oidc {
   background-color: $tertiary;
@@ -403,4 +413,3 @@ span.user-title {
     background: darken($tertiary, 10%);
   }
 }
-
