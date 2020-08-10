@@ -1,7 +1,7 @@
 // Big thanks to jsthon for the initial work on this https://meta.discourse.org/u/jsthon/
 
 @import "common/foundation/variables";
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 
 @mixin box-shadow($value: 8px) {
   box-shadow: 0 1px $value rgba(black, 0.18);
@@ -128,7 +128,7 @@ header.d-header {
 
   .title:after {
     content: "FORUM";
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     color: white;
     font-weight: bold;
     margin-left: 0.25em;
@@ -411,5 +411,35 @@ span.user-title {
   line-height: 1;
   &:hover {
     background: darken($tertiary, 10%);
+  }
+}
+
+// Login / create Account modal
+.d-modal.fixed-modal.create-account .modal-inner-container,
+.d-modal.fixed-modal.login-modal .modal-inner-container {
+  
+  .modal-header {
+    background-color: $header_background;
+    color: #ffffff;
+  }
+
+  .modal-body .create-account-step .create-account-step-icon {
+    color: $header_background;
+  }
+
+  .modal-footer {
+    .sub-footer {
+      background-color: $header_background;
+      color: #ffffff;
+      a {
+        color: #ffffff;
+      }
+      #step-indicators span {
+        background-color: #c4c4c4;
+        &.active {
+          background-color: $tertiary;
+        }
+      }
+    }
   }
 }
