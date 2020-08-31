@@ -434,6 +434,11 @@ span.user-title {
     }
   }
 
+  #new-account-link,
+  #login-link {
+    border: none;
+  }
+
   .modal-footer {
     .sub-footer {
       background-color: $header_background;
@@ -447,10 +452,6 @@ span.user-title {
           background-color: $tertiary;
         }
       }
-    }
-    #new-account-link,
-    #login-link {
-      border: none;
     }
   }
 }
