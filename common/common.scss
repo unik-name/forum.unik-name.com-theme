@@ -417,14 +417,21 @@ span.user-title {
 // Login / create Account modal
 .d-modal.fixed-modal.create-account .modal-inner-container,
 .d-modal.fixed-modal.login-modal .modal-inner-container {
-  
   .modal-header {
     background-color: $header_background;
     color: #ffffff;
+    .modal-close .d-icon {
+      color: $tertiary;
+    }
   }
 
-  .modal-body .create-account-step .create-account-step-icon {
-    color: $header_background;
+  .modal-body {
+    #orEmail {
+      border: none;
+    }
+    .create-account-step .create-account-step-icon {
+      color: $header_background;
+    }
   }
 
   .modal-footer {
@@ -440,6 +447,10 @@ span.user-title {
           background-color: $tertiary;
         }
       }
+    }
+    #new-account-link,
+    #login-link {
+      border: none;
     }
   }
 }
