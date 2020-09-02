@@ -428,6 +428,9 @@ span.user-title {
   .modal-body {
     .login-with-email-button {
       background-color: #d9d9d9;
+      &:hover {
+        background-color: #4f4f4f !important;
+      }
     }
     .create-account-step .create-account-step-icon {
       color: $header_background;
