@@ -126,14 +126,19 @@ header.d-header {
     order: 5;
   }
 
-  .title:after {
-    content: "FORUM";
-    font-family: "Roboto", sans-serif;
-    color: white;
-    font-weight: bold;
-    margin-left: 0.25em;
-    margin-top: 0.2em;
-    font-size: 1.6em;
+  .title a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    &:after {
+      content: "FORUM";
+      font-family: "Roboto", sans-serif;
+      color: white;
+      font-weight: bold;
+      margin-left: 0.25em;
+      margin-top: 0.2em;
+      font-size: 1.6em;
+    }
   }
 }
 
