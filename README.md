@@ -1,6 +1,6 @@
 # Discourse theme for Unikname Forum
 
-See it in action at https://forum.unik-name.com
+See it in action at https://forum.unikname.com
 
 # License
 
