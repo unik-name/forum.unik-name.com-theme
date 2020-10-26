@@ -116,6 +116,7 @@ tbody {
 header.d-header {
   position: fixed;
   padding: 0;
+  top: 0px;
   @include box-shadow;
   .contents {
     display: flex;
