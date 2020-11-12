@@ -464,3 +464,8 @@ span.user-title {
     }
   }
 }
+
+.lightbox-wrapper img {
+  max-width: 100% !important;
+  height: auto;
+}
