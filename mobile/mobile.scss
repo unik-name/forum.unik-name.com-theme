@@ -2,7 +2,7 @@
 
 #main {
   padding-top: 80px;
-  padding-bottom: 20px;
+  padding-bottom: 35px;
 }
 
 #main-outlet {
@@ -194,8 +194,12 @@ img.avatar {
 }
 
 // toc
-@media screen and (max-width: 1109px) {
+@media screen and (max-width: 1110px) {
   .container.posts {
     display: block;
+  }
+
+  .d-toc-regular span.d-toc-toggle {
+    bottom: 35px;
   }
 }
